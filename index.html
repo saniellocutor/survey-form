@@ -1,0 +1,91 @@
+ <html>
+		<head>
+		<link rel="stylesheet" href="css/survey-form.css">
+		
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Responsive Web Design Projects - Build a Tribute Page - FreeCodeCamp.org</title>
+		</head>
+		<body> 
+		
+		   <h1 id="title">Formulário de pesquisa freeCodeCamp</h1>
+     <p id="description" >Obrigado por nos ajudar a melhorar a plataforma</p>
+		   
+		   <form id="survey-form">
+		   
+		   
+		  <label id="name-label"> Nome
+		  <input type="text" id="name" name="name"  placeholder="name" required> </label>
+		   <br>
+		    <br>
+		    <label id="email-label">
+		    Email<input type="email" id="email"  placeholder="saniellocutor@exanple.com" required> </label>
+		   	 <br>
+		    <br>
+		       <label id="number-label">
+		       Idade<input type="number" id="number" required min="10" max="87" placeholder="age">   </label>
+		    <br>
+		    <br>
+		    
+		   
+       <label> Which option best describes your current role?
+      <select  id="dropdown" id="most-like" name="mostLike" class="form-control" required=""></label>
+        <option disabled="" selected="" value="">Select an option</option>
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="openSource">Open Source</option>
+      </select>
+      <div class="form-group">
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <label>
+        <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Definitely</label>
+      <label>
+        <input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe</label>
+
+      <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not sure</label>
+    </div>
+		   
+		   		   	 <br>
+		    <br>
+		    		    <br>
+          <select  id="dropdown" id="most-like" name="mostLike" class="form-control" required="">
+        <option disabled="" selected="" value="">Select an option</option>
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="openSource">Open Source</option>
+      </select>
+<div class="form-group">
+      <p>
+        What would you like to see improved?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
+      <label>
+        <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label>
+      <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label>
+      <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges</label>
+      <label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community</label>
+      <label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms</label>
+      <label><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label>
+      <label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups</label>
+      <label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki</label>
+      <label><input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum</label>
+      <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Additional Courses</label>
+    </div>
+		   
+		   		   	 <br>
+		   <textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+		   		   	 <br>
+		    <br>
+		    <input type="submit" value="submit"  id="submit""> 
+		   
+		   <form>
+		
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		</body>
+	</html>
